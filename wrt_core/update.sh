@@ -77,7 +77,7 @@ main() {
     fix_rust_compile_error
     # update_smartdns
     update_diskman
-    update_dockerman
+    # update_dockerman
     set_nginx_default_config
     update_uwsgi_limit_as
     update_argon
@@ -88,7 +88,7 @@ main() {
     remove_attendedsysupgrade
     fix_kconfig_recursive_dependency
     install_feeds
-    update_docker_stack
+    # update_docker_stack
     fix_cups_libcups_avahi_depends
     # fix_easytier_lua
     update_adguardhome
