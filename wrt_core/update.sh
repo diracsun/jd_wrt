@@ -44,7 +44,7 @@ main() {
     update_feeds
     remove_unwanted_packages
     remove_tweaked_packages
-    update_homeproxy
+    # update_homeproxy
     fix_default_set
     fix_miniupnpd
     update_golang
@@ -58,9 +58,9 @@ main() {
     # fix_mkpkg_format_invalid
     change_cpuusage
     update_tcping
-    add_ax6600_led
+    # add_ax6600_led
     set_custom_task
-    apply_passwall_tweaks
+    # apply_passwall_tweaks
     update_nss_pbuf_performance
     set_build_signature
     update_nss_diag
@@ -68,14 +68,14 @@ main() {
     fix_compile_coremark
     update_dnsmasq_conf
     add_backup_info_to_sysupgrade
-    update_mosdns_deconfig
-    fix_quickstart
-    update_oaf_deconfig
+    # update_mosdns_deconfig
+    # fix_quickstart
+    # update_oaf_deconfig
     add_timecontrol
-    add_quickfile
-    update_lucky
+    # add_quickfile
+    # update_lucky
     fix_rust_compile_error
-    update_smartdns
+    # update_smartdns
     update_diskman
     update_dockerman
     set_nginx_default_config
@@ -84,21 +84,21 @@ main() {
     update_nginx_ubus_module
     check_default_settings
     install_opkg_distfeeds
-    fix_easytier_mk
+    # fix_easytier_mk
     remove_attendedsysupgrade
     fix_kconfig_recursive_dependency
     install_feeds
     update_docker_stack
     fix_cups_libcups_avahi_depends
-    fix_easytier_lua
+    # fix_easytier_lua
     update_adguardhome
     update_script_priority
     update_geoip
     fix_openssl_ktls
     fix_opkg_check
     fix_quectel_cm
-    install_pbr_cmcc
-    fix_pbr_ip_forward
+    # install_pbr_cmcc
+    # fix_pbr_ip_forward
     # apply_hash_fixes
 }
 
